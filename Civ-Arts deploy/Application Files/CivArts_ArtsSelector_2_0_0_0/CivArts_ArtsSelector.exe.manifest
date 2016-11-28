@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="CivArts_ArtsSelector.exe" version="2.0.0.0" publicKeyToken="923c1a14f0e3ec37" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="ajax_and_achilles.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="CivArts_ArtsSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="CivArts_ArtsSelector.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CivArts_ArtsSelector.exe" size="72192">
+      <assemblyIdentity name="CivArts_ArtsSelector" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hfjClKPKBj6ssZrZzjVhua8LToSeJMfFDJHY6KCjRKw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ajax_and_achilles.ico" size="32988">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sWQTMqqhHrXkq99DR55hmkcDRk6PKJbZZPQh5QyFYtw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="CivArts_ArtsSelector.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Achilles_and_Ajax.jpeg" size="422517">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/ICWkfps8eDTXAiC2WZzHu6GkQE7lFUqGZ0Uis+7hUA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Albrecht_Durer_Adam_and_Eve.jpg" size="16166886">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3YMHY68jMeXEMD+vc7P39nFoaHuu+4KQNr6EOjyu1JI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Altdorfer_danube_landscape.jpg" size="2017321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q5hFnHOayv3HmzxVN93qtyEE0tDwlg5MbRrT8wuEgbs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Amiens_Cathedral_Exterior.jpg" size="3861952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H+JHaAEgcVz5tkhGED3JK8LoSG5G8BPFIjF+GlLpxxE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Amiens_Cathedral_Interior.jpg" size="4423133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fcA97Q4jDXBjimatuB2B8SkXm+XuIhNKqCNj2pYgZQw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Annunciation_Gensbach_Gospel.jpg" size="62527">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZoQe/pksQz62vm351s98DkMDzcGFEvLw7uGOYqf36Y4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Annunciation_infancy_of_Christ_window_Chartres.png" size="1660868">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>5wxp+MRS1uQerHPwx+O2sigw1sLOTrolvDb7rBbKa6k=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Anthony_van_Dyck_charles_I.png" size="5511224">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aYfUCVChYGZsa+WHBG9fvVpGrUq2lks6quJCdduOS7A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Benedictine_church_Murbach_Alsace.jpg" size="269359">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>knWTJBtT+6loI6V+yOFTIUfJ+uWNzaf4gU1hu+jSj/0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Brunelleschi_Dome.jpg" size="2949255">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v0N9rKmKlqhuaH6u4zeWxIkq8NCe9qS+GTqLLVV6V2U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Caspar_Friedrich_Riesengebirge_Landscape.jpg" size="540786">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HJyY+RGhDK2ulKU2N68FTRYE2tPx8O+I9k+U33W1v5E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Cezzane.jpg" size="212901">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nJ74DHJ2sZoc0PTUW64M6MChWWo8VnJis9bveZQedow=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\chagall_cellist.png" size="887878">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3HafuURUeaj7uryF2OwG7NisIrmXynaCcbXgF1AZlLM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Chatres_Cathedral_outer_figures.jpg" size="201604">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IZVeqME4hFUcTfcRefFqRheTnK92jQm9E6E1p8VtZmk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\cleobis_and_biton.jpg" size="224421">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>99Utx43V/mEsSK8Z5g51D7469OMscbeElnsJzdoazA4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Coloso_de_Goya_(estampa)_cropped.jpg" size="621838">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2NSxhLRpLCGErEiSh52hVfbi3n9yMpwXwVY9Gsb9rLg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Dali_face_fruit_bowl_beach.png" size="1083859">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LvIufmyAglkMxLF+yTqQqeeXN+FlgjRSXfKbRnBsyW4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Delacroix-Arab-Cavalry.jpg" size="344346">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fpd/REKgb0wstXKyoi0aVA3chTS1pUAxEfg7nyRg7dk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Diego_Velázquez_Las_Meninas.jpg" size="4043077">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>YT3R0GAWC3hfSGqAlt1KXEE6ujGhjieqGrj8ibPcFxA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Discobolos.jpg" size="587467">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cH/9OczY2OPDiWEPvclU74Nio6uqAVmxy4AJXZRFIfo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Donatello_St_George.jpg" size="860752">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oCixHadvCxfTvSo7ArYCeT6w23/je7B1v0cqJiKyugg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Duchamp_LHOOQ.jpg" size="133513">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>umr5KGSoW7YB24Wj4WiSzpqJ+SVOehe7Rj85hOcYIpk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Durer_nativity.jpg" size="97698">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TFsyk8DmZVdZ7sxLK1FDESemAmhoOZ2G2e8TQGXJzVg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Durham_Cathedral.jpg" size="181032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/56epgkJXuFjsGrymlu9hlelOfa6ypW6XOU93psdxbY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Edouard_Manet_-_The_Balcony_-_Google_Art_Project.jpg" size="9543957">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PS96Ryt2BEMZrslXI8tp4mWCxWkXRLL7bP2TuQEEAHY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Erechtheum.jpg" size="2628571">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qIE2nBBgrG9RCHeJA3+BkAh4QL4TUVqksQ+Muc6u7T8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Europe_a_Prophecy_(The_Ancient_of_Days)_British_Museum.jpg" size="2118236">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/n28z8MxqjsXEMuhYq1iS9pCkvpfKKmJKd/M7QFV2Lg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Facade_of_St_Trophime_Arles.jpg" size="2982941">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>M3SQmuM9wXTRBnhEPxH1hQtOdqQfAiiKuYIZDX8xOGI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\frankenthaler_the_bay.jpg" size="57054">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W/iDqKQRzNxaYCOd4r85hWN++HSCiasXp49BW381Pkw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Frencesca_constantines_dream.jpg" size="210849">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nogFS3NYhk4T/bLTajSHOd2rhrodRucM+0bCLPDk1tU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Fujimura_sacrifical_grace.jpg" size="112397">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rR+3dojx07MUc6aHrZkIxpT8czoaVe88ogYAXI0fhgw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Ghent_Altarpiece_closed.jpg" size="4276162">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hkPUsa4i7cMCGrszdgSlj7hdhDolf1mFcdb7XPKOPTQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Ghent_Altarpiece_open.jpg" size="19985567">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qtoRZnc5vvcm+suxX8Icx7NaTfHXVxjE264EzymYNWs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Giotto_mourning_of_Christ.jpg" size="248112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aTZwpVkriy1UX+NZHF55HYLxsc7RqC9vc6vJ/lNtirA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Goyen_Windmill.bmp" size="88948986">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F9w5jkcs1DwTftXd3LYNRuLaTq3yiCpBo1wR4H1d9/M=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Goyen_Windmill.png" size="35858170">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ibfLwFZJQiDmUUsZoCgvO0cGhuw9il+i85obRcsX5QQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Greek_Vase_Geometric_Dipylon_Vase.jpg" size="71864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MOCvvpnS7INt5OktHBe5YgyDEP5ij70ko8ZHaIlsIQI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Grunewald_Isenheim_Altarpiece.jpg" size="9894053">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iFwvgClhxHm2d+ZE9PJUSpwE+MvC4csNsjAbUPFBR3w=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Hals_Banquet.png" size="4276771">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uQQOJ2Kw+6sIlUVniuidkVCeEoZ54+V8Q78GhKsnkaM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Hermes_with_the_young_Dionysus.jpg" size="973950">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Bb/bMdTD76slBWbzXCkEeN8MwXjJo99AQaVt5K8PjM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Hirst_tranquility.jpg" size="5169">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>onP6GqrN2S/KIPuS6pPR83tygDpwRpgTZKGCIcyEkHg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Ionic-frieze1_parthenon.jpg" size="10663">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>To2gLytvCzjee2yREw+MN7SlayfHvt0OLoict3NbKiQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Ionic-frieze2_parthenon.jpg" size="430207">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ne1c/6DftfkByIqHr2UgnJc1EEQz4C6PQIdUMVV34FI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Jacques-Louis_David_-_La_Mort_de_Marat.jpg" size="206808">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LxOkRtGtsBtiodsoTNYS7mByQzXhor3d7T/uGI5/Og0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\John_Constable_The_Hay_Wain.jpg" size="135294">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7ERMwvU1GRhVPH42jBjsAnCPmG81XrgC/4qOY7UwXB0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Joseph_Mallord_William_Turner_Steamer_in_Snow_Storm.jpg" size="3869321">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FLbQP7YYxc4F+wZzCFtFm0I7+YvGZK3rYxjCKHOKkqk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Kalf_Still_Life.png" size="45976195">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>N415zZq5YXvKsPj0BIjVAh8OKzC6gtPNEd4/9oiSOlU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\La_Gare_Saint-Lazare.jpg" size="686799">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tFF9P7XylKgWbx7mIeLu452/zj1Dah2MKMaZcRdUmeE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Laocoon_and_His_Sons.jpg" size="7906669">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>POqrh/FFh/D186vu4jeHm7MiEDqS//XzXEueDQ47iuE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Leonardo_last_supper.jpg" size="637443">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>naIeWhFBH9KwM3Qm1pejy4ouvdp7BNMykmwHLjjX3pg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Leonardo_Mona_Lisa.jpg" size="3506068">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>BANSnsP47I75kA/WxJs0HaYjWgepqKRPdeYouTmA4H0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\marble_metope_temple_of_Zeus.jpg" size="1125233">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>moJVS/qEced0Mue+OEo3QKYgJVLmXlbKkTwzlHf2Ku0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\masaccio_holy_trinity.jpg" size="966098">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oitfWkviH9bQvrClbVbkL0YMIO7nPGsNZ67Fxh7xjNA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\medieval_calendar_october.png" size="379753">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Sj5o4gFX42IV9TDQTs9KF7wPV7yCulo6Hk6yjWpQ3eM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Melk Monastery.jpg" size="2745547">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XoF+v6g0amOUV21jghVYi2NZMtHl7ynmdLLJe2l8n9U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\michelangelo_sistine_chapel_ceiling.jpg" size="697253">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wVF6HdMl0UG59SM7ZrM0qLgQV9PJKxOs0tqOpeZKuL0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Motherwell_elegy_to_the_Spanish_republic.jpg" size="1259211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ABQIrFPlUuJiwBK3CZXsZdHSVgOUbbeYN4f7HcHahDU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Mountains_in_Provence.jpg" size="146239">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bY/OVag2hNbyO8J8EagtjpHOMYSNBnUL+a9xn0qtgZs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Oldenburg_clothespin.jpg" size="339200">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IfLfA4Iv9OdijPTz1yPuNQ1LF78lXVyd965cnHFfZ0s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Pablo_Picasso_Violin_and_grapes.jpg" size="4523922">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JJ/FTF2OwTqD1i7y2k8BzT/dc1rjT/rxEYyI1lgKBkE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Paul_Cézanne_132.jpg" size="594632">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqviupGG84MQNjMJR5yRny//RMs/qUrsVYHxYIsfh14=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Pazzi_Chapel_interior.jpg" size="776389">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VRYssS5QPI2/jgt4h+W6UfEyi3okJQunxGcUcJHkccw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\pazzi_exterior.jpg" size="206255">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MBpgQ6z2dFl6KVWJZoxw/O8zKyTmAnoBHScj1bDlmuc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Pierre-Auguste_Renoir,_Le_Moulin_de_la_Galette.jpg" size="3794890">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MUYPFDkT+ZK3SAq7yhWbOeHRWrNgkIKVGriaakN8fJs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Pollock_one_31.jpg" size="1720222">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6o6+Zh4RVU2FU7EXVVr330ngZ6hIH1+vzau03OolIrY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Poussin_et_in_Arcadia_ego.bmp" size="101493730">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gsXxFmKWu06vMYUCEiFoAmW2mC6iZG69LAoJBqE9pRk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Poussin_et_in_Arcadia_ego.png" size="44009024">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gt5twjwdd5Ic1QoZTzPsxwvEh9LUxAO9TECVfDQbtKw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Prince_Philip_Prospero_by_Diego_Velázquez.jpg" size="7329033">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4CWSBeaZItVK0+TuUpDPYKMgdaDohYEnn0X3QuIgCYY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Raphael_galatea.jpg" size="402376">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZTVGOdfs2Dk63ee0/iDv5oV+MqR35VtNMPZtsQVSl24=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Raphael_Madonna_of_the_Meadow.jpg" size="7262617">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g01thKX/Eq7nkcspCerOKkxW343Sysp8+YWXdJdd9SM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Rembrandt_David_and_Absalom.png" size="1975873">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rnYCEJPRbe34Kp+yds+y+nadcgv9Rt5Z0pDySwZgJtc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Rembrandt_Jan_Six.png" size="5890090">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HQAtnZbm1iXrkabTwxpOQXyrb6/kKx37fSvEdoEh3vA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Rembrandt_van_Rijn_self_portrait.jpg" size="2655722">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>a41scxIRYQOx9PGBIvrgQsnXqO63KcQBgL4GOzHeQVg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Rubens_allegory.png" size="4167801">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pMepBOzUK0/mHBfX9Ln1YAZSI6Yl3UjnB7ZkFVywohg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Rubens_Virgin_and_Child.png" size="19300101">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>irrWFdBb13D72vaD8iGXrob/BlVLNu554a4HUEOyCsE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\ruisdael - a pool surrounded by trees.jpg" size="9677834">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PWUCVxz3TXI/KDoBIIpJLVAkl6Z2OQououezjRU+UsM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Sainte_chapelle.jpg" size="3217406">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3dtwBDJowctAZhuWN/z8xDtfqVKa+dkjjFDVU6uf6oc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\St_James_led_to_his_execution_Mantegna.jpg" size="137645">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2E9vk3WQSzjsApoxzHuAZ5QVLOQ994LFqjpF/UCQ3os=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\The_Incredulity_of_Saint_Thomas-Caravaggio.jpg" size="7293633">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h49tcm8uOKy+NrpP7fO704gVD2lhX1FCSiQ4NOAFmCw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\The_Parthenon_in_Athens.jpg" size="347181">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cifdr7HfEHwrtji3zOq4h2tN6CVeJQ9GA1KMy5CCvEk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\the_warriors_leave_taking.jpg" size="9470">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MmwbAI0IAy/Ks6t37z9hlOFbc9ONTjbrhSZEqdVm2yo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Thomas_Jefferson's_Monticello.JPG" size="7691734">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VgQM13JZ0zFga4cwYn1eYfk0z3M7gVRusSZvbROM5XI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Tournai_Cathedral_Romanesque_End.jpg" size="47089">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Axlv+Zir6oRNxytPyc9d6X1ouu6ScobuJWvN/y9bq7I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\ulysses_recognized_by_his_old_nurse.png" size="533097">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KH6WGoLrgDB9b0BsT1VK5za++1Tq+oYzLLukn00w39Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Velazquez_water_seller.png" size="217298">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PElCfjKoMKl4BxnT3hfaqTfkl2VmxDOsZtOwBVR3d00=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Vermeer - kitchen-maid.jpg" size="370009">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SidRb+tAc2FiOUHx//YWvbExb4C6frIqZDn0OQyjkV8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\versailles-palace.jpg" size="346630">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>57gnttb4UMwEa9aJaCLlP+Lyl6Km7/ifAsMLUuguWY4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Vincent_van_Gogh_-_Wheat_Field_with_Cypresses.jpg" size="16466303">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hnG5e9zb1QuaT5rAiF9PI393UxDWCSBjMdlXbeZaE2o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Vincent_van_Gogh's_Bedroom_in_Arles.jpg" size="5342519">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bdqfCbM2v+aw7ih+8fT0NQxPeg4U5rz4dIhYcn4F9RQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Watteau - Fete in a Park.png" size="1082511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6Dvd4XcFeE2TevlHxjvV8HESthv8Toe7raTrO7FCvlY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Watteau - Fete in a Park2.png" size="1082511">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6Dvd4XcFeE2TevlHxjvV8HESthv8Toe7raTrO7FCvlY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\Weyden_Decent_from_the_Cross.jpg" size="2924611">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GXPAJxJvioaYkeNxX0EIhGL2G1A1omHU1Bum1/l3gCQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Pictures\wilton_dyptich.png" size="5230426">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UCURR6/7osEkNNrJdw65WDJ1lXJyaUrAXy35c//7+bU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=GCC\MACKENZIELA1" issuerKeyHash="54da0211a835cd9d501455c11f823ab37ba511fb" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>l0njD3/xz1BQxCrtvFwFbjGnxeaNDvVmKcU+HwIrHuE=</DigestValue></Reference></SignedInfo><SignatureValue>Ch8513K09cK0v8Ndtau3wKc4oYf5XkJVRY03FaLCcXoVZIPsiWu8fqNCbbvd2KlaTLBIk0F7vhJTMH60G07WP/0ObRWMKPENTsnK61AjIMmpGIT0T6SDfugvrumlnd+foWc8sI5jNGs5ldk4eCazDTZBviT5D+1Dyd+15j/tSWM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wyR8NVAwrB4e0excyPfz7zFvRcyphFyIzYn+45mez6YkEmxL2zZi/pVkzUxGIR7nmbfYu1zpuFK2Lbj3idlnpSdJ24g5acAMBWR8L38ebhgcolR+CtX29LdFL5FURyZqOzSyxkIfzpXaXynsJR38AVEWie+OnZ7MU0iNv1WGMjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="e11e2b021f3ec52966f50e8de6c5a7316e055cbced2ac45050cff17f0fe34997" Description="" Url=""><as:assemblyIdentity name="CivArts_ArtsSelector.exe" version="2.0.0.0" publicKeyToken="923c1a14f0e3ec37" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=GCC\MACKENZIELA1</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4iCq43V2qOWrD7+RtCp3/WYrI04Tq2pAKuniY0k78JU=</DigestValue></Reference></SignedInfo><SignatureValue>jZ6fdqYltBsRFsUjBcEs6752DQe+yJ9meWwwHTILa195l/uAUPDeUJd6DuAhUnnzdkiNweRKB1yoPzvOwbAOm6P8UVQVJ01ae0cbLPSPf7BtqW/m/3h2EtzJR/eJX8+LnvlINGhC9lZhpHomdElF7AvwB3fr1fBp1EIMhgR9Trk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wyR8NVAwrB4e0excyPfz7zFvRcyphFyIzYn+45mez6YkEmxL2zZi/pVkzUxGIR7nmbfYu1zpuFK2Lbj3idlnpSdJ24g5acAMBWR8L38ebhgcolR+CtX29LdFL5FURyZqOzSyxkIfzpXaXynsJR38AVEWie+OnZ7MU0iNv1WGMjc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQEbh9iYIgM51KIVbE6oZg1jANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAARwBDAEMAXABNAEEAQwBLAEUATgBaAEkARQBMAEEAMTAeFw0xNjA2MDExMTU1NTNaFw0xNzA2MDExNzU1NTNaMCsxKTAnBgNVBAMeIABHAEMAQwBcAE0AQQBDAEsARQBOAFoASQBFAEwAQQAxMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDJHw1UDCsHh7R7FzI9/PvMW9FzKmEXIjNif7jmZ7PpiQSbEvbNmL+lWTNTEYhHueZt9i7XOm4UrYtuPeJ2WelJ0nbiDlpwAwFZHwvfx5uGByiVH4K1fb0t0UvkVRHJmo7NLLGQh/OldpfKewlHfwBURaJ746dnsxTSI2/VYYyNwIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKEyg/dT728Qzqof5eYEvqTN442d8QDuTs9uw7k7zFiArAK+5FGTNOgmMBxUERJafl1ITK2ZuEBFLgkTNj2MzxaORGNRorHqMcELT0PZre87lsXKYr9/sbXR9EDkMm9psth7hGdHMuZMzLsg59T8zul8tWHTRIi9S7N135dfLlRs</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
