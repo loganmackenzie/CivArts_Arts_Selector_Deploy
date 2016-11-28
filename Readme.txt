@@ -1,0 +1,1 @@
+The CivArts Arts Selector can be installed by downloading this repository and running setup.exe file in the Civ-Arts deploy folder. Just follow the installation process by providing appropriate permissions. After installation, the application should launch on its own and place a shortcut on your desktop.
